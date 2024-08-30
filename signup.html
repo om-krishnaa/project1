@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="login_signin.css" rel="stylesheet" type="text/css">
+</head>
+<body >
+
+    <header> <!--display page name-->
+        <section class="aside_signup_login_Page">
+            <div class="aside_signup_login_Page_container">
+                <h1>Hello, Friend!!!!</h1>
+                <p>Make sure you fill up all the details properly.<br>And if you already have an account do <a href="login.html"> log in </a></p>
+            </div>
+        </section>
+        <div class="page_name_Navbar">
+            <a href="index.html" > <!--<img src="samp3.jpg" height="90px" width="90px"  id="imgmain" >-->
+            <h1>BCA<sup><span class="page_name_hub">hub</span></sup></h1></a>
+        </div>
+    </header>
+
+     <section class="form-section"> <!--form section -->
+        
+        <form action="signin.php" method="get" enctype="multipart/form-data" class="signup_form">
+            <div class="form-group">
+                <h7 id="reminder_signup"><b><u><i>Please fill up all the details</i></u></b></h7>
+            </div>
+            <div class="form-group">
+                <label>Name</label><!--for taking the input of users name-->
+                <input type="text" name="Name" id="firstName" placeholder="enter your first name" required>
+                <input type="text" name="Name" id="lastName" placeholder="enter your last name" required>
+            </div>
+
+            <!-- <div class="form-group">taking input of mobile number
+                <label>Mobile number</label>
+                <input type="number" name="mobile number" id="mobile_number" placeholder="enter your Mobile number" required>
+            </div> -->
+            <div class="form-group">taking input of address
+                <label>Address</label>
+                <input type="text" name="address" id="address" placeholder="enter your Address" required>
+            </div>
+            <div class="form-group"><!--taking input of password-->
+                <label>Password</label>
+                <input type="password" name="password" class="password" placeholder="create your password" required>
+            </div>
+            <div class="form-group"><!--for the confirmation of the passowrd-->
+                <label>Re-enter your Password</label>
+                <input type="password" name="password" class="password" placeholder="confirm your password" required>
+            </div>
+
+            <div class="form-group"><!--for the submit btn-->
+                <input type="submit"  value="Sign Up" name="Sign up" id="signupsubmit">
+            </div>
+        </form>
+    </section>
+    <footer class="footer_signup">
+        Copyright © 2023 BCAhub nepal. All Rights Reserved. Designed by om krishna shrestha
+    </footer>
+</body>
+</html>

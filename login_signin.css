@@ -1,0 +1,188 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background-color: #eee;
+}
+.page_name_Navbar a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.form-section{
+  /* display: inline-block; */
+  /* background-color: black; */
+  margin: 0%;
+  padding: 20%;
+}
+/* .signup_form {
+    padding: 30px;
+    animation: fadeIn 0.5s ease; /* Add fade-in animation 
+    display: inline-block;
+  } */
+
+  .signup_form {
+    max-width: 510px;
+    margin: 0%  0% 0%  200px;
+    /* background-color: #ffffff; */
+    border-radius: 10px;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    padding: 25.5px;
+    animation: fadeIn 0.5s ease; /* Add fade-in animation */
+    display: inline-block;
+  }
+  
+  /* .signup_form {
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2);
+  }
+   */
+  .form-group {
+    margin-bottom: 5px;
+  }
+  
+  .form-group label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"],
+  .form-group input[type="address"],
+  .form-group input[type="mobile_number"],
+  .form-group input[type="number"],
+  .form-group input[type="username"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .form-group input[type="submit"] {
+    background-color: #00796b; /* Teal */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 20px  0px 0px 150px;
+  
+  }
+  
+  .form-group input[type="submit"]:hover {
+    background-color: #005b4f; /* Darker teal on hover */
+  }
+  /*for form*/
+  .form-section {
+    padding: 50px;
+    animation: fadeIn 0.5s ease; /* Add fade-in animation */
+  }
+
+  #firstName{
+    width: 195px;
+    display: inline-block;
+  }
+  #lastName{
+    width: 195px;
+    display: inline-block;
+  }
+  .aside_signup_login_Page{
+    background-color: #005b4fe7;
+    display: float;
+    float: right;
+    width: 550px;
+    height: 695px;
+    border-radius: 60% 0% 2% 0%;
+    animation: fadeIn 0.5s ease; /* Add fade-in animation */
+
+  }
+  .aside_signup_login_Page_container{
+    color: rgb(255, 255, 255);
+    margin-top: 300px;
+    margin-left: 150px;
+    justify-content:center;
+  }
+  .aside_signup_login_Page_container a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    color: #5c63e2ef;
+  }
+
+  /*for login form*/
+   .login_form{
+    max-width: 510px;
+    margin: 0%  0% 0%  200px;
+    /* background-color: #ffffff; */
+    border-radius: 10px;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    padding: 40px;
+    animation: fadeIn 0.5s ease; /* Add fade-in animation */
+    display: inline-block;
+    margin-top: 100px;
+   }
+#submit_login{
+  margin-left: 130px;
+}
+#alert_login{
+  margin-left: 360px;
+  /* margin-top: 10px; */
+  font-size: 11px;
+  padding-bottom: 49.5px;
+
+}
+#alert_login2{
+  padding: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#alert_login2 a{
+  text-decoration: none;
+  background-color: #00796b;
+  color: black;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.page_name_Navbar{ /*display page name in the  navbar*/
+  display: inline-block;
+  margin-block-end:0px;
+  color: #0b0b0b;
+  font-size: 35px;
+  margin-left: 70px;
+
+}
+.logo_name{
+display: inline-block;
+
+}
+.page_name_hub{
+font-size: 12px;
+}
+.footer_signup {
+
+  background-color: #c7ab77; /* Teal */
+  color: rgb(0, 0, 0);
+  padding: 20px 0;
+  text-align: center;
+  animation: slideInUp 0.5s ease; /* Add slide-in animation */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100% !important;
+  margin-top: 100px;
+}
+/* .footer_signup {
+  margin: 0;
+} */
+

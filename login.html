@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="login_signin.css" type="text/css">
+</head>
+<style>
+</style>
+<body >
+    <header>
+        <section class="aside_signup_login_Page">
+            <div class="aside_signup_login_Page_container">
+                <h1>Hello, Friend!!!!</h1>
+                <p>Make sure you enter the details correct.<br>And if you don't have any account do <a href="signup.html">Sign Up</a></a></p>
+            </div>
+        </section>
+        <div class="page_name_Navbar">
+            <a href="index.html" >
+            <h1>BCA<sup><span class="page_name_hub">hub</sup></span></h1></a>
+        </div>
+    </header>
+    <section class="form-section">
+    <form action="register.php" method="get" enctype="multipart/form-data" class="login_form">
+        
+        <div class="form_element"> 
+            <h7><b><u><i>Reminder Please fill  up the  following details</i></u></b></h7>
+    
+        </div>
+        <div class="form-group">
+            <label>username</label>
+            <input type="text" name="username" id="username" placeholder="enter your username" required>
+        <div class="form-group"><!--taking input of password-->
+            <label>Password</label>
+            <input type="password" name="password" class="password" placeholder="create your password" required>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="log in" name="Sign up" id="submit_login">
+        </div>
+    </form>
+    </section>
+    <section >
+        <div id="alert_login">
+            <div id="alert_login1">
+                <h1>Don't Have an Account</h1>
+            </div>
+            <div id="alert_login2">
+                <a href="signup.html" >create an account</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        Copyright © 2023 . All Rights Reserved. Designed by om krishna shrestha
+    </footer>
+ 
+</body>
+</html>
