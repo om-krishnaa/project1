@@ -16,6 +16,7 @@ body{
   /* background-color: black; */
   margin: 0%;
   padding: 20%;
+  display: flex;
 }
 /* .signup_form {
     padding: 30px;
@@ -24,6 +25,7 @@ body{
   } */
 
   .signup_form {
+    flex: 0 0 300px;
     max-width: 510px;
     margin: 0%  0% 0%  200px;
     /* background-color: #ffffff; */
@@ -85,6 +87,7 @@ body{
   /*for form*/
   .form-section {
     padding: 50px;
+    flex: 0 0 300px;
     animation: fadeIn 0.5s ease; /* Add fade-in animation */
   }
 
@@ -96,17 +99,16 @@ body{
     width: 195px;
     display: inline-block;
   }
-  .aside_signup_login_Page{
+  .aside_signup_login_Page_container{
     background-color: #005b4fe7;
-    display: float;
-    float: right;
-    width: 550px;
-    height: 695px;
-    border-radius: 60% 0% 2% 0%;
+    width: 100px;
+    display: flex;
+    height: 95px;
+    border-radius: 50% 10% 30% 15%;
     animation: fadeIn 0.5s ease; /* Add fade-in animation */
 
   }
-  .aside_signup_login_Page_container{
+  /* .aside_signup_login_Page_container{
     color: rgb(255, 255, 255);
     margin-top: 300px;
     margin-left: 150px;
@@ -117,7 +119,7 @@ body{
     font-size: 20px;
     padding: 5px;
     color: #5c63e2ef;
-  }
+  } */
 
   /*for login form*/
    .login_form{
@@ -185,4 +187,26 @@ font-size: 12px;
 /* .footer_signup {
   margin: 0;
 } */
+.form-container{
+  display: flex;
+  background-color: #eee;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  padding: 0px 50px 40px 30px;
+  /* background-color: #828282; */
+  animation: fadein 0.5s ease;
+  /* margin-top: 15px; */
+  /* border: 1px solid black; */  
+}
 
+.form{
+ 
+  /* background-color: #fff; */
+  /* border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); */
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  margin : 20px 30px 20px 30px;
+  justify-content: center;
+}
